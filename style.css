@@ -1,1 +1,87 @@
 /*Personal Web Page Style Sheet */
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background-color: #004D0D;;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 25px;
+  margin: 10px;
+  color: #004D0D;}
+
+p {margin-right: 200px;
+clear: left;}
+
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  color: #004D0D;
+}
+
+
+header { margin-left: 100px;
+  height: 160px;
+  width: 700px;
+  margin-bottom: 0px;
+  background-image: url(Images/colorbanner1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;}
+
+
+
+#container  { background-color: #ffffcc;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  padding-right: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+
+  box-shadow: inset -2px -2px 3px 5px #004d0d;
+  font-weight: bold;
+  
+
+  border-style: solid;
+  border-color: #004D0D;
+  border-width: 3px;
+  border-radius: 5px;
+
+  font-size: .80em;
+  font-family: "Times New Roman", serif;
+}
+
+#contact  { background-color: #ffffcc;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  padding-right: 0px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+
+  box-shadow: inset -3px -3px 3px 3px #00332B;
+  font-weight: bold;
+
+
+  border-style: solid;
+  border-color: #004D0D;
+  border-width: 3px;
+  border-radius: 5px;
+
+  font-size: .80em;
+  font-family: "Times New Roman", serif;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+#bolded table, th, td {
+  border: 1px solid black;}
+
+#photo {margin-right: 500px;
+        }
